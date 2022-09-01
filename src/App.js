@@ -1,10 +1,10 @@
 import "./App.css";
+import { AddNewTransaction } from "./components/AddNewTransaction";
 import { Balance } from "./components/Balance";
+import { GlobalProvider} from  "./context/GlobalState";
 import { Header } from "./components/Header";
 import { IncomeExpenses } from "./components/IncomeExpenses";
 import { TransactionList } from "./components/TransactionList";
-import { AddNewTransaction } from "./components/AddNewTransaction";
-import { GlobalProvider} from  "./context/GlobalState";
 
 
 function App() {
