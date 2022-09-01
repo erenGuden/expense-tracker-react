@@ -13,7 +13,7 @@ export const AddNewTransaction = () => {
       text,
       amount: +amount,
     };
-    alert("succesfully added transaction:" + [newTransaction.text]);
+    alert("successfully added transaction:" + [newTransaction.text]);
     setText("");
     setAmount("");
 
